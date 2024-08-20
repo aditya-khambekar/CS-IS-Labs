@@ -1,3 +1,6 @@
+package DiverseArray;
+
+import java.util.HashSet;
 
 public class DiverseArray {
 
@@ -36,7 +39,7 @@ public class DiverseArray {
      * otherwise
      */
     public static boolean isDiverse( int[][] arr2D ) {
-        HashSet<int> set = new HashSet<int>();
+        HashSet<Integer> set = new HashSet<Integer>();
         int[] sums = rowSums(arr2D);
         for(int i = 0; i<sums.length; i++){
             if(!set.contains(sums[i])){

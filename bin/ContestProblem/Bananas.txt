@@ -1,0 +1,17 @@
+You are a monkey looking for bananas. You are walking around in a forest (represented by a 2D array). You will start with an integer amount of energy. Each banana you eat will give you some energy, and every movement you make within the array will cost you some energy. You may only move horizontally and vertically within the array. Given a starting position and the position of all the bananas, what is the maximum number of bananas you can eat before running out of energy or eating all bananas?
+
+Input
+The first line will contain the number of problems. The second line will contain two integers, the energy given by a banana and the energy cost of a step. The third line will contain the starting energy of the monkey. The fourth line will contain the dimensions of the 2D array. All following lines will be part of the array. A 0 is an empty space, a 1 is a banana, and a -1 is the starting position of the monkey.
+Output
+Output the maximum number of bananas that can be eaten before running out of either energy or bananas.
+
+Example input file
+2
+2 1
+3
+5 6
+0 0 0 1 0 0
+0 0 0 0 0 1
+0 -1 0 0 1 0
+0 1 0 0 0 0
+0 0 0 0 1 0
