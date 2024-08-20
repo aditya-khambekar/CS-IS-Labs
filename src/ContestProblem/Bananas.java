@@ -24,6 +24,9 @@ public class Bananas {
             int[] startPosition = new int[2];
 
             for(int i = 0; i<dimensionScanner.nextInt(); i++){
+                while(!input.hasNextLine()){
+                    
+                }
                 String row = input.nextLine();
                 Scanner r = new Scanner(row);
                 int j = 0;
@@ -53,7 +56,7 @@ public class Bananas {
 
             }
 
-            System.out.println(Monkey.highest);
+            //System.out.println(Monkey.highest);
         }
     }
 
