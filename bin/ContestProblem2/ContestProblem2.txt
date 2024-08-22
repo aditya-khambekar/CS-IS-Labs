@@ -1,4 +1,4 @@
-In the classic novel 1984, people rewrite famous texts to remove and replace specific words prohibited by the dystopian Party. You will be doing the same for shorter texts. For each problem, you will recieve a word to replace, a word to replace it with, and the String to change. Case should be ignored when replacing, and you should only replace the given text when it is a word in its entirety, not when it forms part of another word. So, if "post" was the given word to be replaced, "composter", "posture", or "posting" would not be changed, but "POST" and "pOsT" would. You will output the entire string with the replacements.
+In the classic novel 1984, some people rewrite famous texts to remove and replace specific words prohibited by the dystopian Party. You will be doing the same for shorter texts. For each problem, you will recieve a word to replace, a word to replace it with, and the String to change. Case should be ignored when replacing, and you should only replace the given text when it is a word in its entirety, not when it forms part of another word. So, if "post" was the given word to be replaced, "composter", "posture", or "posting" would not be changed, but "POST" and "pOsT" would. You will output the entire string with the replacements.
 
 Input:
 The first line of the input will be the number of problems. Then, for each problem, the first line will contain the word to replace and the word that will replace it, separated by a space. The next line will contain the String that will be changed.
@@ -11,7 +11,7 @@ Sample Input:
 square cube
 The square root of 64 is the same as two squared.
 sPoNgEbOb spongebob
-Sometimes I talk like SpOnGeBoB, but other people find me quite annoying.
+Sometimes I talk like SpOnGeBoB, but other people find it quite annoying.
 turkeys chickens
 Don't count your turkeys, before they hatch.
 Dell Apple
@@ -19,7 +19,7 @@ My Chromebook has a Dell logo on it.
 
 Sample Output:
 The cube root of 64 is the same as two squared.
-Sometimes I talk like spongebob, but other people find me quite annoying.
+Sometimes I talk like spongebob, but other people find it quite annoying.
 Don't count your chickens, before they hatch.
 My Chromebook has a Apple logo on it.
 

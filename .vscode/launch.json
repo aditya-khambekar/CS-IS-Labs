@@ -6,9 +6,15 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "RestaurantBankruptcy",
             "request": "launch",
             "mainClass": "RestaurantBankruptcy.RestaurantBankruptcy",
+=======
+            "name": "nineteeneightyfour",
+            "request": "launch",
+            "mainClass": "ContestProblem2.nineteeneightyfour",
+>>>>>>> c2cefac733a92647500239e9decb378b2846d02c
             "projectName": "New Project Template (No module-info.java)"
         },
         {
